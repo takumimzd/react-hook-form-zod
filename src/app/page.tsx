@@ -3,8 +3,8 @@ import { FormProvider } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useForm } from '../../hooks/useForm';
-import { DateTimeLocalInput } from '../../components/DateTimeLocalnput';
-import { TextInput } from '../../components/TextInput';
+import { DateTimeLocalInput } from '../../components/register/DateTimeLocalnput';
+import { TextInput } from '../../components/register/TextInput';
 
 export type FormData = {
   title: string;
